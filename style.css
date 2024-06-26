@@ -99,16 +99,21 @@ header.sticky{
     background: rgba(223, 214, 214, 0.85);
 }
 
-header .logo{
+/*header .logo{
     font-size: 2.5rem;
     font-weight: bolder;
     color: #666;
-}
+    height: 25rem;
+}*/
 
-header .logo i{
+header .logo {
+    width: 80px;
+    margin-left: 20px;
+}
+/*header .logo i{
     padding-right: .5rem;
     color: var(--red);
-}
+} */
 
 header .navbar a{
     font-size: 2rem;
